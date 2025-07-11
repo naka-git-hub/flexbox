@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+header{
+    height: 100px;
+    background-color: rgb(74, 144, 226);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.headerWelcome {
+    display: flex;
+    justify-content: center;
+}
+
+.headerWelcome > div{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.imgHomeDiv {
+    margin-right: 20px;
+}
+
+.imgHomeHeader {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Trebuchet MS",Arial,sans-serif;
+}
+
+#navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+/* .navHover a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(74, 144, 226);
+} */
+
+#navigation li {
+  display: inline;
+  margin-right: 1px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(74, 144, 226);
+}
+
+#navigation li a {
+  padding-right: 40px;
+  background: rgb(74, 144, 226);
+  color: rgb(255, 255, 255);
+  font: 1em "Trebuchet MS",Arial,sans-serif;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sectionBoxContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+}
+
+.imgSection {
+    width: 100%;
+}
+
+.divImg {
+    width: 900px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.divText {
+    margin-right: 25px;
+}
+
+.divTextLeft {
+    margin-left: 25px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    margin-top: 25px;
+}
+
+.divTextFooter {
+    margin-bottom: 10px;
+}
+
+.divTextFooter > p {
+    color: rgb(255, 255, 255);
+}
+
+#navigationFooter {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#navigationFooter li {
+  display: inline;
+  margin-right: 1px;
+  color: rgb(74, 144, 226);
+  background-color: rgb(0, 0, 0);
+}
+
+#navigationFooter li a {
+  padding-right: 40px;
+  background: rgb(0, 0, 0);
+  color: rgb(74, 144, 226);
+  font: 1em "Trebuchet MS",Arial,sans-serif;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
